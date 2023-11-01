@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Staatliches&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg , #876445 , #CA965C , #EEC373 , #F4DFBA);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container #clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    height: 25vh;
+    width: 55vw;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    font-size:180px;
+    padding: 0px 0px 0px 30px;
+}
+
+.container #right {
+    position: absolute;
+    top: 43%;
+    right: 12%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.container #left {
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.container #right img {
+    padding: 22px 0px 0px 26px;
+}
+
+.container #left img {
+    padding: 22px 0px 0px 23px;
+}
+
+.container #right:hover {
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.container #right:active {
+    width: 101px;
+    height: 101px;
+}
+
+.container #right:active img {
+    padding: 23px 0px 0px 25px;
+}
+
+.container #left:hover {
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.container #left:active {
+    width: 101px;
+    height: 101px;
+}
+
+.container #left:active img {
+    padding: 23px 0px 0px 24px;
+}
+
+
